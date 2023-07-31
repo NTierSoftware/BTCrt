@@ -385,3 +385,129 @@
 2023-07-31T19:27:37Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
 2023-07-31T19:27:37Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
 2023-07-31T19:27:37Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:28:38Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:28:38Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:28:38Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:28:38Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:29:39Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:29:39Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:29:39Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:29:39Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:30:40Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:30:40Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:30:40Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:30:40Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:31:41Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:31:41Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:31:41Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:31:41Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:32:42Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:32:42Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:32:42Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:32:42Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:33:43Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:33:43Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:33:43Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:33:43Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:34:44Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:34:44Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:34:44Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:34:44Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:35:45Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:35:45Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:35:45Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:35:45Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:36:46Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:36:46Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:36:46Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:36:46Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:37:47Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:37:47Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:37:47Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:37:47Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:38:48Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:38:48Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:38:48Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:38:48Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:39:49Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:39:49Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:39:49Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:39:49Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:40:20Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  353ms
+2023-07-31T19:40:50Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:40:50Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:40:50Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:40:50Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:41:51Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:41:51Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:41:51Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:41:51Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:42:33Z [net_processing.cpp:4245] [CheckForStaleTipAndEvictPeers] Potential stale tip detected, will try using extra outbound peer (last tip update: 1934 seconds ago)
+2023-07-31T19:42:33Z [net.cpp:1795] [SetTryNewOutboundPeer] net: setting try another outbound peer=true
+2023-07-31T19:42:52Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:42:52Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:42:52Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:42:52Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:43:53Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:43:53Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:43:53Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:43:53Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:44:54Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:44:54Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:44:54Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:44:54Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:45:55Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:45:55Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:45:55Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:45:55Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:46:56Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:46:56Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:46:56Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:46:56Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:47:57Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:47:57Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:47:57Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:47:57Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:48:58Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:48:58Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:48:58Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:48:58Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:49:59Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:49:59Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:49:59Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:49:59Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:51:00Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:51:00Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:51:00Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:51:00Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:52:01Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:52:01Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:52:01Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:52:01Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:53:02Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:53:02Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:53:02Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:53:02Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:53:03Z [net_processing.cpp:4245] [CheckForStaleTipAndEvictPeers] Potential stale tip detected, will try using extra outbound peer (last tip update: 2564 seconds ago)
+2023-07-31T19:53:03Z [net.cpp:1795] [SetTryNewOutboundPeer] net: setting try another outbound peer=true
+2023-07-31T19:54:03Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:54:03Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:54:03Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:54:03Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:55:04Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:55:04Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:55:04Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:55:04Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:55:20Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  357ms
+2023-07-31T19:56:05Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:56:05Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:56:05Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:56:05Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:57:06Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:57:06Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:57:06Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:57:06Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T19:58:07Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T19:58:07Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T19:58:07Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T19:58:07Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
