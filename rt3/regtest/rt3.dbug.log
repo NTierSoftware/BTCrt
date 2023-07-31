@@ -3,384 +3,411 @@
 
 
 
-2023-07-31T19:10:21Z [init/common.cpp:165] [LogPackageVersion] Bitcoin Core version v22.0.0 (release build)
-2023-07-31T19:10:21Z [qt/guiutil.cpp:884] [LogQtInfo] Qt 5.12.11 (static), plugin=xcb (static)
-2023-07-31T19:10:21Z [qt/guiutil.cpp:889] [LogQtInfo] Static plugins:
-2023-07-31T19:10:21Z [qt/guiutil.cpp:894] [LogQtInfo]  QXcbIntegrationPlugin, version 330752
-2023-07-31T19:10:21Z [qt/guiutil.cpp:898] [LogQtInfo] Style: fusion / QFusionStyle
-2023-07-31T19:10:21Z [qt/guiutil.cpp:899] [LogQtInfo] System: Ubuntu 22.10, x86_64-little_endian-lp64
-2023-07-31T19:10:21Z [qt/guiutil.cpp:901] [LogQtInfo] Screen: XWAYLAND0 1920x1080, pixel ratio=1.0
-2023-07-31T19:10:21Z [qt/guiutil.cpp:901] [LogQtInfo] Screen: XWAYLAND1 1920x1200, pixel ratio=1.0
-2023-07-31T19:10:21Z [init.cpp:890] [AppInitParameterInteraction] Validating signatures for all blocks.
-2023-07-31T19:10:21Z [init.cpp:901] [AppInitParameterInteraction] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
-2023-07-31T19:10:21Z [init/common.cpp:29] [SetGlobals] Using the 'shani(1way,2way)' SHA256 implementation
-2023-07-31T19:10:21Z [random.cpp:100] [ReportHardwareRand] Using RdSeed as additional entropy source
-2023-07-31T19:10:21Z [random.cpp:103] [ReportHardwareRand] Using RdRand as an additional entropy source
-2023-07-31T19:10:22Z [init/common.cpp:136] [StartLogging] Default data directory /home/jd/.bitcoin
-2023-07-31T19:10:22Z [init/common.cpp:137] [StartLogging] Using data directory /BTCrt/rt3/regtest
-2023-07-31T19:10:22Z [init/common.cpp:142] [StartLogging] Config file: /BTCrt/rt3.conf
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: addresstype="bech32"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: chain="regtest"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: daemon="1"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: dbcache="4000"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="1"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="http"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="rpc"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="tor"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="selectcoins"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="mempoolrej"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="estimatefee"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="cmpctblock"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="rand"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="prune"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="qt"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="leveldb"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debuglogfile="rt3.dbug.log"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: listen="1"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: listenonion="0"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: logips="1"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: logsourcelocations="1"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: prune="0"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: rpcpassword=****
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: rpcuser=****
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: server="1"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] addnode="127.0.0.1:18441"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] addnode="127.0.0.1:18442"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] datadir="/BTCrt/rt3"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] fallbackfee=".00000001"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] port="18443"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] rpcport="8443"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Command-line arg: conf="/BTCrt/rt3.conf"
-2023-07-31T19:10:22Z [util/system.cpp:1041] [logArgsPrefix] Command-line arg: datadir="/BTCrt/rt3"
-2023-07-31T19:10:22Z [init.cpp:1077] [AppInitMain] Using at most 125 automatic connections (1024 file descriptors available)
-2023-07-31T19:10:22Z [script/sigcache.cpp:102] [InitSignatureCache] Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
-2023-07-31T19:10:22Z [validation.cpp:1388] [InitScriptExecutionCache] Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
-2023-07-31T19:10:22Z [init.cpp:1104] [AppInitMain] Script verification uses 15 additional threads
-2023-07-31T19:10:22Z [util/thread.cpp:17] [TraceThread] scheduler thread start
-2023-07-31T19:10:22Z [httpserver.cpp:180] [InitHTTPAllowList] Allowing HTTP connections from: 127.0.0.0/8 ::1/128 
-2023-07-31T19:10:22Z [httpserver.cpp:316] [HTTPBindAddresses] Binding RPC on address ::1 port 8443
-2023-07-31T19:10:22Z [httpserver.cpp:316] [HTTPBindAddresses] Binding RPC on address 127.0.0.1 port 8443
-2023-07-31T19:10:22Z [httpserver.cpp:391] [InitHTTPServer] Initialized HTTP server
-2023-07-31T19:10:22Z [httpserver.cpp:393] [InitHTTPServer] HTTP: creating work queue of depth 16
-2023-07-31T19:10:22Z [rpc/server.cpp:292] [StartRPC] Starting RPC
-2023-07-31T19:10:22Z [httprpc.cpp:294] [StartHTTPRPC] Starting HTTP RPC server
-2023-07-31T19:10:22Z [httprpc.cpp:251] [InitRPCAuthentication] Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
-2023-07-31T19:10:22Z [httpserver.cpp:635] [RegisterHTTPHandler] Registering HTTP handler for / (exactmatch 1)
-2023-07-31T19:10:22Z [httpserver.cpp:635] [RegisterHTTPHandler] Registering HTTP handler for /wallet/ (exactmatch 0)
-2023-07-31T19:10:22Z [httpserver.cpp:421] [StartHTTPServer] Starting HTTP server
-2023-07-31T19:10:22Z [httpserver.cpp:423] [StartHTTPServer] HTTP: starting 4 worker threads
-2023-07-31T19:10:22Z [httpserver.cpp:282] [ThreadHTTP] Entering http event loop
-2023-07-31T19:10:22Z [wallet/load.cpp:40] [VerifyWallets] Using wallet directory /BTCrt/rt3/regtest/wallets
-2023-07-31T19:10:22Z [noui.cpp:56] [noui_InitMessage] init message: Verifying wallet(s)…
-2023-07-31T19:10:22Z [noui.cpp:56] [noui_InitMessage] init message: Loading banlist…
-2023-07-31T19:10:22Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt3/regtest/banlist.dat
-2023-07-31T19:10:22Z [banman.cpp:27] [BanMan] Recreating the banlist database
-2023-07-31T19:10:22Z [banman.cpp:55] [DumpBanlist] Flushed 0 banned node addresses/subnets to disk  0ms
-2023-07-31T19:10:22Z [net.cpp:1795] [SetTryNewOutboundPeer] net: setting try another outbound peer=false
-2023-07-31T19:10:22Z [net.cpp:2442] [SetNetworkActive] SetNetworkActive: true
-2023-07-31T19:10:22Z [policy/fees.cpp:530] [CBlockPolicyEstimator] Failed to read fee estimates from /BTCrt/rt3/regtest/fee_estimates.dat. Continue anyway.
-2023-07-31T19:10:22Z [init.cpp:1290] [AppInitMain] Using /16 prefix for IP bucketing
-2023-07-31T19:10:22Z [init.cpp:1326] [AppInitMain] Cache configuration:
-2023-07-31T19:10:22Z [init.cpp:1327] [AppInitMain] * Using 2.0 MiB for block index database
-2023-07-31T19:10:22Z [init.cpp:1335] [AppInitMain] * Using 8.0 MiB for chain state database
-2023-07-31T19:10:22Z [init.cpp:1336] [AppInitMain] * Using 3990.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
-2023-07-31T19:10:22Z [noui.cpp:56] [noui_InitMessage] init message: Loading block index…
-2023-07-31T19:10:22Z [validation.cpp:4706] [InitializeChainstate] Switching active chainstate to Chainstate [ibd] @ height -1 (null)
-2023-07-31T19:10:22Z [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /BTCrt/rt3/regtest/blocks/index
-2023-07-31T19:10:22Z [dbwrapper.cpp:141] [CDBWrapper] Opened LevelDB successfully
-2023-07-31T19:10:22Z [dbwrapper.cpp:166] [CDBWrapper] Using obfuscation key for /BTCrt/rt3/regtest/blocks/index: 0000000000000000
-2023-07-31T19:10:22Z [validation.cpp:3778] [LoadBlockIndexDB] LoadBlockIndexDB: last block file = 0
-2023-07-31T19:10:22Z [validation.cpp:3782] [LoadBlockIndexDB] LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
-2023-07-31T19:10:22Z [validation.cpp:3793] [LoadBlockIndexDB] Checking all blk files are present...
-2023-07-31T19:10:22Z [validation.cpp:4129] [LoadBlockIndex] Initializing databases...
-2023-07-31T19:10:22Z [flatfile.cpp:69] [Allocate] Pre-allocating up to position 0x1000000 in blk00000.dat
-2023-07-31T19:10:22Z [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /BTCrt/rt3/regtest/chainstate
-2023-07-31T19:10:23Z [dbwrapper.cpp:141] [CDBWrapper] Opened LevelDB successfully
-2023-07-31T19:10:23Z [dbwrapper.cpp:163] [CDBWrapper] Wrote new obfuscate key for /BTCrt/rt3/regtest/chainstate: 34562c7bb7829909
-2023-07-31T19:10:23Z [dbwrapper.cpp:166] [CDBWrapper] Using obfuscation key for /BTCrt/rt3/regtest/chainstate: 34562c7bb7829909
-2023-07-31T19:10:23Z [init.cpp:1514] [AppInitMain]  block index            1120ms
-2023-07-31T19:10:23Z [util/thread.cpp:17] [TraceThread] loadblk thread start
-2023-07-31T19:10:23Z [validation.cpp:2378] [ConnectTip]   - Load block from disk: 0.19ms [0.00s]
-2023-07-31T19:10:23Z [validationinterface.cpp:249] [BlockChecked] BlockChecked: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 state=Valid
-2023-07-31T19:10:23Z [validation.cpp:2390] [ConnectTip]   - Connect total: 0.05ms [0.00s (0.05ms/blk)]
-2023-07-31T19:10:23Z [validation.cpp:2395] [ConnectTip]   - Flush: 0.02ms [0.00s (0.02ms/blk)]
-2023-07-31T19:10:23Z [validation.cpp:2401] [ConnectTip]   - Writing chainstate: 0.02ms [0.00s (0.02ms/blk)]
-2023-07-31T19:10:23Z [validation.cpp:2240] [UpdateTip] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
-2023-07-31T19:10:23Z [validation.cpp:2412] [ConnectTip]   - Connect postprocess: 0.04ms [0.00s (0.04ms/blk)]
-2023-07-31T19:10:23Z [validation.cpp:2413] [ConnectTip] - Connect block: 0.31ms [0.00s (0.31ms/blk)]
-2023-07-31T19:10:23Z [txmempool.cpp:633] [check] Checking mempool with 0 transactions and 0 inputs
-2023-07-31T19:10:23Z [validationinterface.cpp:226] [BlockConnected] Enqueuing BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
-2023-07-31T19:10:23Z [validationinterface.cpp:199] [UpdatedBlockTip] Enqueuing UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
-2023-07-31T19:10:23Z [init.cpp:1662] [AppInitMain] block tree size = 1
-2023-07-31T19:10:23Z [init.cpp:1674] [AppInitMain] nBestHeight = 0
-2023-07-31T19:10:23Z [validation.cpp:4509] [LoadMempool] Failed to open mempool file from disk. Continuing anyway.
-2023-07-31T19:10:23Z [util/thread.cpp:19] [TraceThread] loadblk thread exit
-2023-07-31T19:10:23Z [net.cpp:241] [AddLocal] AddLocal([2600:1010:a020:615e::1111]:18443,1)
-2023-07-31T19:10:23Z [net.cpp:2432] [Discover] Discover: IPv6 wlp0s20f3: 2600:1010:a020:615e::1111
-2023-07-31T19:10:23Z [net.cpp:2372] [BindListenPort] Unable to bind to 127.0.0.1:18445 on this computer. Bitcoin Core is probably already running.
-2023-07-31T19:10:23Z [net.cpp:2375] [BindListenPort] Bound to [::]:18443
-2023-07-31T19:10:23Z [net.cpp:2375] [BindListenPort] Bound to 0.0.0.0:18443
-2023-07-31T19:10:23Z [noui.cpp:56] [noui_InitMessage] init message: Loading P2P addresses…
-2023-07-31T19:10:23Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt3/regtest/peers.dat
-2023-07-31T19:10:23Z [validationinterface.cpp:226] [operator()] BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
-2023-07-31T19:10:23Z [net.cpp:2544] [Start] Recreating peers.dat
-2023-07-31T19:10:23Z [validationinterface.cpp:199] [operator()] UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
-2023-07-31T19:10:23Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  38ms
-2023-07-31T19:10:23Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt3/regtest/anchors.dat
-2023-07-31T19:10:23Z [net.cpp:2555] [Start] 0 block-relay-only anchors will be tried for connections.
-2023-07-31T19:10:23Z [noui.cpp:56] [noui_InitMessage] init message: Starting network threads…
-2023-07-31T19:10:23Z [util/thread.cpp:17] [TraceThread] net thread start
-2023-07-31T19:10:23Z [noui.cpp:56] [noui_InitMessage] init message: Done loading
-2023-07-31T19:10:23Z [util/thread.cpp:17] [TraceThread] dnsseed thread start
-2023-07-31T19:10:23Z [util/thread.cpp:17] [TraceThread] msghand thread start
-2023-07-31T19:10:23Z [net.cpp:1756] [ThreadDNSAddressSeed] 0 addresses found from DNS seeds
-2023-07-31T19:10:23Z [util/thread.cpp:19] [TraceThread] dnsseed thread exit
-2023-07-31T19:10:23Z [util/thread.cpp:17] [TraceThread] addcon thread start
-2023-07-31T19:10:23Z [util/thread.cpp:17] [TraceThread] opencon thread start
-2023-07-31T19:10:23Z [qt/bitcoin.cpp:154] [DebugMessageHandler] GUI: Platform customization: "other"
-2023-07-31T19:10:23Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
-2023-07-31T19:10:23Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:18441 peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending getaddr (0 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=0, peeraddr=127.0.0.1:18441
-2023-07-31T19:10:23Z [timedata.cpp:54] [AddTimeData] added time data, samples 2, offset +0 (+0 minutes)
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2673] [ProcessMessage] New outbound peer connected: version: 70016, blocks=0, peer=0, peeraddr=127.0.0.1:18441 (manual)
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:4493] [SendMessages] initial getheaders (0) to peer=0 (startheight:0)
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending getheaders (69 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=0
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
-2023-07-31T19:10:23Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
-2023-07-31T19:10:23Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:18442 peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending getaddr (0 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=1, peeraddr=127.0.0.1:18442
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2673] [ProcessMessage] New outbound peer connected: version: 70016, blocks=0, peer=1, peeraddr=127.0.0.1:18442 (manual)
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
-2023-07-31T19:10:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=1
-2023-07-31T19:10:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
-2023-07-31T19:10:36Z [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:59906
-2023-07-31T19:10:36Z [rpc/request.cpp:172] [parse] ThreadRPCServer method=createwallet user=rt3 peeraddr=127.0.0.1:59906
-2023-07-31T19:10:36Z [wallet/sqlite.cpp:74] [SQLiteDatabase] Using SQLite Version 3.32.1
-2023-07-31T19:10:36Z [wallet/sqlite.cpp:75] [SQLiteDatabase] Using wallet /BTCrt/rt3/regtest/wallets/wal3
-2023-07-31T19:10:37Z [noui.cpp:56] [noui_InitMessage] init message: Loading wallet…
-2023-07-31T19:10:37Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Wallet File Version = 10500
-2023-07-31T19:10:37Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
-2023-07-31T19:10:37Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Wallet completed loading in             415ms
-2023-07-31T19:10:37Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] setKeyPool.size() = 0
-2023-07-31T19:10:37Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] mapWallet.size() = 0
-2023-07-31T19:10:37Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] m_address_book.size() = 0
-2023-07-31T19:10:37Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Encrypting Wallet with an nDeriveIterations of 319010
-2023-07-31T19:10:38Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 26f391d49c16cb64d78ca795796ec1750b6f9c8c6bd023037820fb17f95446ca, type = 0, internal = 0
-2023-07-31T19:10:39Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 64a0fa15acc639e2f16f18059cb0e25a8016e7d345cee7aa732e13ead2e7f9df, type = 1, internal = 0
-2023-07-31T19:10:39Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 30c83495f6e7bb8a41e5643976429c247d790557f8a31bea6ecedbcc74d624e4, type = 2, internal = 0
-2023-07-31T19:10:40Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 0a38b02e3c5e8d66da549d6d07759c5ac97cdf69bfd1197397290f84ec48bb00, type = 0, internal = 1
-2023-07-31T19:10:41Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = acfea126ee88951151cda789e6e913f1a346f4d46ea09047cda04907fb313397, type = 1, internal = 1
-2023-07-31T19:10:41Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = e5bfe308d76c7cfa3049a367e1977891afdba5ffdfde0d14777f579fce1c66da, type = 2, internal = 1
-2023-07-31T19:11:21Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:60352 peer=2
-2023-07-31T19:11:21Z [net.cpp:1202] [CreateNodeFromAcceptedSocket] connection from 127.0.0.1:60352 accepted
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=2, peeraddr=127.0.0.1:60352
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: getaddr (0 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
-2023-07-31T19:11:21Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=2
-2023-07-31T19:11:21Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
-2023-07-31T19:11:22Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:60366 peer=3
-2023-07-31T19:11:22Z [net.cpp:1202] [CreateNodeFromAcceptedSocket] connection from 127.0.0.1:60366 accepted
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=3, peeraddr=127.0.0.1:60366
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: getaddr (0 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
-2023-07-31T19:11:22Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=3
-2023-07-31T19:11:22Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
-2023-07-31T19:11:24Z [net.cpp:1888] [ThreadOpenConnections] Adding fixed seeds as 60 seconds have passed and addrman is empty
-2023-07-31T19:12:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
-2023-07-31T19:12:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
-2023-07-31T19:12:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
-2023-07-31T19:12:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
-2023-07-31T19:12:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
-2023-07-31T19:12:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
-2023-07-31T19:12:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
-2023-07-31T19:12:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
-2023-07-31T19:13:21Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
-2023-07-31T19:13:21Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
-2023-07-31T19:13:21Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
-2023-07-31T19:13:21Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
-2023-07-31T19:13:22Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
-2023-07-31T19:13:22Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
-2023-07-31T19:13:22Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
-2023-07-31T19:13:22Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
-2023-07-31T19:14:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
-2023-07-31T19:14:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
-2023-07-31T19:14:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
-2023-07-31T19:14:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
-2023-07-31T19:14:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
-2023-07-31T19:14:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
-2023-07-31T19:14:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
-2023-07-31T19:14:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
-2023-07-31T19:15:21Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
-2023-07-31T19:15:21Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
-2023-07-31T19:15:21Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
-2023-07-31T19:15:21Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
-2023-07-31T19:15:22Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
-2023-07-31T19:15:22Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
-2023-07-31T19:15:22Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
-2023-07-31T19:15:22Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
-2023-07-31T19:16:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
-2023-07-31T19:16:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
-2023-07-31T19:16:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
-2023-07-31T19:16:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
-2023-07-31T19:16:24Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
-2023-07-31T19:16:24Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
-2023-07-31T19:16:24Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
-2023-07-31T19:16:24Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
-2023-07-31T19:17:21Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
-2023-07-31T19:17:21Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
-2023-07-31T19:17:21Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
-2023-07-31T19:17:21Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
-2023-07-31T19:17:22Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
-2023-07-31T19:17:22Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
-2023-07-31T19:17:22Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
-2023-07-31T19:17:22Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
-2023-07-31T19:18:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
-2023-07-31T19:18:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
-2023-07-31T19:18:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
-2023-07-31T19:18:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
-2023-07-31T19:18:24Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
-2023-07-31T19:18:24Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
-2023-07-31T19:18:24Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
-2023-07-31T19:18:24Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
-2023-07-31T19:18:54Z [qt/bitcoin.cpp:154] [DebugMessageHandler] GUI: QXcbConnection: XCB error: 13 (BadGC), sequence: 1550, resource id: 0, major code: 130 (Unknown), minor code: 3
-2023-07-31T19:19:21Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
-2023-07-31T19:19:21Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
-2023-07-31T19:19:21Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
-2023-07-31T19:19:21Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
-2023-07-31T19:19:22Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
-2023-07-31T19:19:22Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
-2023-07-31T19:19:22Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
-2023-07-31T19:19:22Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
-2023-07-31T19:19:28Z [rpc/server.cpp:302] [operator()] Interrupting RPC
-2023-07-31T19:19:28Z [rpc/server.cpp:314] [operator()] Stopping RPC
-2023-07-31T19:19:28Z [init.cpp:348] [OnRPCStopped] RPC stopped.
-2023-07-31T19:19:28Z [httpserver.cpp:433] [InterruptHTTPServer] Interrupting HTTP server
-2023-07-31T19:19:28Z [httprpc.cpp:312] [InterruptHTTPRPC] Interrupting HTTP RPC server
-2023-07-31T19:19:28Z [init.cpp:181] [Shutdown] Shutdown: In progress...
-2023-07-31T19:19:28Z [httprpc.cpp:317] [StopHTTPRPC] Stopping HTTP RPC server
-2023-07-31T19:19:28Z [util/thread.cpp:19] [TraceThread] addcon thread exit
-2023-07-31T19:19:28Z [util/thread.cpp:19] [TraceThread] opencon thread exit
-2023-07-31T19:19:28Z [httpserver.cpp:648] [UnregisterHTTPHandler] Unregistering HTTP handler for / (exactmatch 1)
-2023-07-31T19:19:28Z [httpserver.cpp:648] [UnregisterHTTPHandler] Unregistering HTTP handler for /wallet/ (exactmatch 0)
-2023-07-31T19:19:28Z [httpserver.cpp:445] [StopHTTPServer] Stopping HTTP server
-2023-07-31T19:19:28Z [httpserver.cpp:447] [StopHTTPServer] Waiting for HTTP worker threads to exit
-2023-07-31T19:19:28Z [httpserver.cpp:460] [StopHTTPServer] Waiting for HTTP event thread to exit
-2023-07-31T19:19:28Z [httpserver.cpp:285] [ThreadHTTP] Exited http event loop
-2023-07-31T19:19:28Z [httpserver.cpp:472] [StopHTTPServer] Stopped HTTP server
-2023-07-31T19:19:28Z [util/thread.cpp:19] [TraceThread] net thread exit
-2023-07-31T19:19:28Z [util/thread.cpp:19] [TraceThread] msghand thread exit
-2023-07-31T19:19:29Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  127ms
-2023-07-31T19:19:29Z [logging/timer.h:48] [Log] DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
-2023-07-31T19:19:29Z [logging/timer.h:48] [Log] DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.12s)
-2023-07-31T19:19:29Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=0
-2023-07-31T19:19:29Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=0
-2023-07-31T19:19:29Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=1
-2023-07-31T19:19:29Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=1
-2023-07-31T19:19:29Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=2
-2023-07-31T19:19:29Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=2
-2023-07-31T19:19:29Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=3
-2023-07-31T19:19:29Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=3
-2023-07-31T19:19:29Z [util/thread.cpp:19] [TraceThread] scheduler thread exit
-2023-07-31T19:19:29Z [validation.cpp:4629] [DumpMempool] Writing 0 unbroadcast transactions to disk.
-2023-07-31T19:19:29Z [validation.cpp:4639] [DumpMempool] Dumped mempool: 2e-06s to copy, 0.026678s to dump
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk started
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk completed (131.55ms)
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk started
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk completed (16.96ms)
-2023-07-31T19:19:29Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) started
-2023-07-31T19:19:29Z [txdb.cpp:138] [BatchWrite] Writing final batch of 0.00 MiB
-2023-07-31T19:19:29Z [txdb.cpp:140] [BatchWrite] Committed 0 changed transaction outputs (out of 0) to coin database...
-2023-07-31T19:19:29Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) completed (0.00s)
-2023-07-31T19:19:29Z [validationinterface.cpp:244] [ChainStateFlushed] Enqueuing ChainStateFlushed: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
-2023-07-31T19:19:29Z [validationinterface.cpp:244] [operator()] ChainStateFlushed: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk started
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk completed (16.62ms)
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk started
-2023-07-31T19:19:29Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk completed (17.17ms)
-2023-07-31T19:19:29Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) started
-2023-07-31T19:19:29Z [txdb.cpp:138] [BatchWrite] Writing final batch of 0.00 MiB
-2023-07-31T19:19:29Z [txdb.cpp:140] [BatchWrite] Committed 0 changed transaction outputs (out of 0) to coin database...
-2023-07-31T19:19:29Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) completed (0.00s)
-2023-07-31T19:19:29Z [validationinterface.cpp:244] [ChainStateFlushed] Enqueuing ChainStateFlushed: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
-2023-07-31T19:19:29Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Releasing wallet
-2023-07-31T19:19:29Z [init.cpp:299] [Shutdown] Shutdown: done
+2023-07-31T20:07:03Z [init/common.cpp:165] [LogPackageVersion] Bitcoin Core version v22.0.0 (release build)
+2023-07-31T20:07:03Z [qt/guiutil.cpp:884] [LogQtInfo] Qt 5.12.11 (static), plugin=xcb (static)
+2023-07-31T20:07:03Z [qt/guiutil.cpp:889] [LogQtInfo] Static plugins:
+2023-07-31T20:07:03Z [qt/guiutil.cpp:894] [LogQtInfo]  QXcbIntegrationPlugin, version 330752
+2023-07-31T20:07:03Z [qt/guiutil.cpp:898] [LogQtInfo] Style: fusion / QFusionStyle
+2023-07-31T20:07:03Z [qt/guiutil.cpp:899] [LogQtInfo] System: Ubuntu 22.10, x86_64-little_endian-lp64
+2023-07-31T20:07:03Z [qt/guiutil.cpp:901] [LogQtInfo] Screen: XWAYLAND0 1920x1080, pixel ratio=1.0
+2023-07-31T20:07:03Z [qt/guiutil.cpp:901] [LogQtInfo] Screen: XWAYLAND1 1920x1200, pixel ratio=1.0
+2023-07-31T20:07:03Z [init.cpp:890] [AppInitParameterInteraction] Validating signatures for all blocks.
+2023-07-31T20:07:03Z [init.cpp:901] [AppInitParameterInteraction] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-07-31T20:07:03Z [init/common.cpp:29] [SetGlobals] Using the 'shani(1way,2way)' SHA256 implementation
+2023-07-31T20:07:03Z [random.cpp:100] [ReportHardwareRand] Using RdSeed as additional entropy source
+2023-07-31T20:07:03Z [random.cpp:103] [ReportHardwareRand] Using RdRand as an additional entropy source
+2023-07-31T20:07:03Z [init/common.cpp:136] [StartLogging] Default data directory /home/jd/.bitcoin
+2023-07-31T20:07:03Z [init/common.cpp:137] [StartLogging] Using data directory /BTCrt/rt3/regtest
+2023-07-31T20:07:03Z [init/common.cpp:142] [StartLogging] Config file: /BTCrt/rt3.conf
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: addresstype="bech32"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: chain="regtest"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: daemon="1"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: dbcache="4000"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="1"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="http"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="rpc"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="tor"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="selectcoins"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="mempoolrej"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="estimatefee"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="cmpctblock"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="rand"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="prune"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="qt"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="leveldb"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debuglogfile="rt3.dbug.log"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: listen="1"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: listenonion="0"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: logips="1"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: logsourcelocations="1"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: prune="0"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: rpcpassword=****
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: rpcuser=****
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: server="1"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] addnode="127.0.0.1:18441"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] addnode="127.0.0.1:18442"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] datadir="/BTCrt/rt3"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] fallbackfee=".00000001"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] port="18443"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] rpcport="8443"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Command-line arg: conf="/BTCrt/rt3.conf"
+2023-07-31T20:07:03Z [util/system.cpp:1041] [logArgsPrefix] Command-line arg: datadir="/BTCrt/rt3"
+2023-07-31T20:07:03Z [init.cpp:1077] [AppInitMain] Using at most 125 automatic connections (1024 file descriptors available)
+2023-07-31T20:07:03Z [script/sigcache.cpp:102] [InitSignatureCache] Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2023-07-31T20:07:03Z [validation.cpp:1388] [InitScriptExecutionCache] Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2023-07-31T20:07:03Z [init.cpp:1104] [AppInitMain] Script verification uses 15 additional threads
+2023-07-31T20:07:03Z [util/thread.cpp:17] [TraceThread] scheduler thread start
+2023-07-31T20:07:03Z [httpserver.cpp:180] [InitHTTPAllowList] Allowing HTTP connections from: 127.0.0.0/8 ::1/128 
+2023-07-31T20:07:03Z [httpserver.cpp:316] [HTTPBindAddresses] Binding RPC on address ::1 port 8443
+2023-07-31T20:07:03Z [httpserver.cpp:316] [HTTPBindAddresses] Binding RPC on address 127.0.0.1 port 8443
+2023-07-31T20:07:03Z [httpserver.cpp:391] [InitHTTPServer] Initialized HTTP server
+2023-07-31T20:07:03Z [httpserver.cpp:393] [InitHTTPServer] HTTP: creating work queue of depth 16
+2023-07-31T20:07:03Z [rpc/server.cpp:292] [StartRPC] Starting RPC
+2023-07-31T20:07:03Z [httprpc.cpp:294] [StartHTTPRPC] Starting HTTP RPC server
+2023-07-31T20:07:03Z [httprpc.cpp:251] [InitRPCAuthentication] Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2023-07-31T20:07:03Z [httpserver.cpp:635] [RegisterHTTPHandler] Registering HTTP handler for / (exactmatch 1)
+2023-07-31T20:07:03Z [httpserver.cpp:635] [RegisterHTTPHandler] Registering HTTP handler for /wallet/ (exactmatch 0)
+2023-07-31T20:07:03Z [httpserver.cpp:421] [StartHTTPServer] Starting HTTP server
+2023-07-31T20:07:03Z [httpserver.cpp:423] [StartHTTPServer] HTTP: starting 4 worker threads
+2023-07-31T20:07:03Z [httpserver.cpp:282] [ThreadHTTP] Entering http event loop
+2023-07-31T20:07:03Z [wallet/load.cpp:40] [VerifyWallets] Using wallet directory /BTCrt/rt3/regtest/wallets
+2023-07-31T20:07:03Z [noui.cpp:56] [noui_InitMessage] init message: Verifying wallet(s)…
+2023-07-31T20:07:03Z [noui.cpp:56] [noui_InitMessage] init message: Loading banlist…
+2023-07-31T20:07:03Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt3/regtest/banlist.dat
+2023-07-31T20:07:03Z [banman.cpp:27] [BanMan] Recreating the banlist database
+2023-07-31T20:07:03Z [banman.cpp:55] [DumpBanlist] Flushed 0 banned node addresses/subnets to disk  0ms
+2023-07-31T20:07:03Z [net.cpp:1795] [SetTryNewOutboundPeer] net: setting try another outbound peer=false
+2023-07-31T20:07:03Z [net.cpp:2442] [SetNetworkActive] SetNetworkActive: true
+2023-07-31T20:07:03Z [policy/fees.cpp:530] [CBlockPolicyEstimator] Failed to read fee estimates from /BTCrt/rt3/regtest/fee_estimates.dat. Continue anyway.
+2023-07-31T20:07:03Z [init.cpp:1290] [AppInitMain] Using /16 prefix for IP bucketing
+2023-07-31T20:07:03Z [init.cpp:1326] [AppInitMain] Cache configuration:
+2023-07-31T20:07:03Z [init.cpp:1327] [AppInitMain] * Using 2.0 MiB for block index database
+2023-07-31T20:07:03Z [init.cpp:1335] [AppInitMain] * Using 8.0 MiB for chain state database
+2023-07-31T20:07:03Z [init.cpp:1336] [AppInitMain] * Using 3990.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-07-31T20:07:03Z [noui.cpp:56] [noui_InitMessage] init message: Loading block index…
+2023-07-31T20:07:03Z [validation.cpp:4706] [InitializeChainstate] Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-07-31T20:07:03Z [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /BTCrt/rt3/regtest/blocks/index
+2023-07-31T20:07:03Z [dbwrapper.cpp:141] [CDBWrapper] Opened LevelDB successfully
+2023-07-31T20:07:03Z [dbwrapper.cpp:166] [CDBWrapper] Using obfuscation key for /BTCrt/rt3/regtest/blocks/index: 0000000000000000
+2023-07-31T20:07:03Z [validation.cpp:3778] [LoadBlockIndexDB] LoadBlockIndexDB: last block file = 0
+2023-07-31T20:07:03Z [validation.cpp:3782] [LoadBlockIndexDB] LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2023-07-31T20:07:03Z [validation.cpp:3793] [LoadBlockIndexDB] Checking all blk files are present...
+2023-07-31T20:07:03Z [validation.cpp:4129] [LoadBlockIndex] Initializing databases...
+2023-07-31T20:07:03Z [flatfile.cpp:69] [Allocate] Pre-allocating up to position 0x1000000 in blk00000.dat
+2023-07-31T20:07:04Z [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /BTCrt/rt3/regtest/chainstate
+2023-07-31T20:07:04Z [dbwrapper.cpp:141] [CDBWrapper] Opened LevelDB successfully
+2023-07-31T20:07:04Z [dbwrapper.cpp:163] [CDBWrapper] Wrote new obfuscate key for /BTCrt/rt3/regtest/chainstate: 7d96870ce2c56b24
+2023-07-31T20:07:04Z [dbwrapper.cpp:166] [CDBWrapper] Using obfuscation key for /BTCrt/rt3/regtest/chainstate: 7d96870ce2c56b24
+2023-07-31T20:07:04Z [init.cpp:1514] [AppInitMain]  block index            1005ms
+2023-07-31T20:07:04Z [util/thread.cpp:17] [TraceThread] loadblk thread start
+2023-07-31T20:07:04Z [validation.cpp:2378] [ConnectTip]   - Load block from disk: 0.12ms [0.00s]
+2023-07-31T20:07:04Z [validationinterface.cpp:249] [BlockChecked] BlockChecked: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 state=Valid
+2023-07-31T20:07:04Z [validation.cpp:2390] [ConnectTip]   - Connect total: 0.06ms [0.00s (0.06ms/blk)]
+2023-07-31T20:07:04Z [validation.cpp:2395] [ConnectTip]   - Flush: 0.03ms [0.00s (0.03ms/blk)]
+2023-07-31T20:07:04Z [validation.cpp:2401] [ConnectTip]   - Writing chainstate: 0.02ms [0.00s (0.02ms/blk)]
+2023-07-31T20:07:04Z [validation.cpp:2240] [UpdateTip] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2023-07-31T20:07:04Z [validation.cpp:2412] [ConnectTip]   - Connect postprocess: 0.04ms [0.00s (0.04ms/blk)]
+2023-07-31T20:07:04Z [validation.cpp:2413] [ConnectTip] - Connect block: 0.26ms [0.00s (0.26ms/blk)]
+2023-07-31T20:07:04Z [txmempool.cpp:633] [check] Checking mempool with 0 transactions and 0 inputs
+2023-07-31T20:07:04Z [validationinterface.cpp:226] [BlockConnected] Enqueuing BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
+2023-07-31T20:07:04Z [validationinterface.cpp:199] [UpdatedBlockTip] Enqueuing UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
+2023-07-31T20:07:04Z [init.cpp:1662] [AppInitMain] block tree size = 1
+2023-07-31T20:07:04Z [init.cpp:1674] [AppInitMain] nBestHeight = 0
+2023-07-31T20:07:04Z [validation.cpp:4509] [LoadMempool] Failed to open mempool file from disk. Continuing anyway.
+2023-07-31T20:07:04Z [util/thread.cpp:19] [TraceThread] loadblk thread exit
+2023-07-31T20:07:04Z [net.cpp:241] [AddLocal] AddLocal([2600:1010:a020:615e::1111]:18443,1)
+2023-07-31T20:07:04Z [net.cpp:2432] [Discover] Discover: IPv6 wlp0s20f3: 2600:1010:a020:615e::1111
+2023-07-31T20:07:04Z [net.cpp:2372] [BindListenPort] Unable to bind to 127.0.0.1:18445 on this computer. Bitcoin Core is probably already running.
+2023-07-31T20:07:04Z [validationinterface.cpp:226] [operator()] BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
+2023-07-31T20:07:04Z [net.cpp:2375] [BindListenPort] Bound to [::]:18443
+2023-07-31T20:07:04Z [net.cpp:2375] [BindListenPort] Bound to 0.0.0.0:18443
+2023-07-31T20:07:04Z [validationinterface.cpp:199] [operator()] UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
+2023-07-31T20:07:04Z [noui.cpp:56] [noui_InitMessage] init message: Loading P2P addresses…
+2023-07-31T20:07:04Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt3/regtest/peers.dat
+2023-07-31T20:07:04Z [net.cpp:2544] [Start] Recreating peers.dat
+2023-07-31T20:07:04Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  37ms
+2023-07-31T20:07:04Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt3/regtest/anchors.dat
+2023-07-31T20:07:04Z [net.cpp:2555] [Start] 0 block-relay-only anchors will be tried for connections.
+2023-07-31T20:07:04Z [noui.cpp:56] [noui_InitMessage] init message: Starting network threads…
+2023-07-31T20:07:04Z [noui.cpp:56] [noui_InitMessage] init message: Done loading
+2023-07-31T20:07:04Z [util/thread.cpp:17] [TraceThread] msghand thread start
+2023-07-31T20:07:04Z [util/thread.cpp:17] [TraceThread] dnsseed thread start
+2023-07-31T20:07:04Z [net.cpp:1756] [ThreadDNSAddressSeed] 0 addresses found from DNS seeds
+2023-07-31T20:07:04Z [util/thread.cpp:19] [TraceThread] dnsseed thread exit
+2023-07-31T20:07:04Z [util/thread.cpp:17] [TraceThread] net thread start
+2023-07-31T20:07:04Z [util/thread.cpp:17] [TraceThread] opencon thread start
+2023-07-31T20:07:04Z [qt/bitcoin.cpp:154] [DebugMessageHandler] GUI: Platform customization: "other"
+2023-07-31T20:07:04Z [util/thread.cpp:17] [TraceThread] addcon thread start
+2023-07-31T20:07:04Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:07:04Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:18441 peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending getaddr (0 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=0, peeraddr=127.0.0.1:18441
+2023-07-31T20:07:04Z [timedata.cpp:54] [AddTimeData] added time data, samples 2, offset +0 (+0 minutes)
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2673] [ProcessMessage] New outbound peer connected: version: 70016, blocks=0, peer=0, peeraddr=127.0.0.1:18441 (manual)
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:4493] [SendMessages] initial getheaders (0) to peer=0 (startheight:0)
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending getheaders (69 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T20:07:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=0
+2023-07-31T20:07:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T20:07:05Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:07:05Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:18442 peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending getaddr (0 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=1, peeraddr=127.0.0.1:18442
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2673] [ProcessMessage] New outbound peer connected: version: 70016, blocks=0, peer=1, peeraddr=127.0.0.1:18442 (manual)
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T20:07:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=1
+2023-07-31T20:07:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T20:07:18Z [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:56182
+2023-07-31T20:07:18Z [rpc/request.cpp:172] [parse] ThreadRPCServer method=createwallet user=rt3 peeraddr=127.0.0.1:56182
+2023-07-31T20:07:18Z [wallet/sqlite.cpp:74] [SQLiteDatabase] Using SQLite Version 3.32.1
+2023-07-31T20:07:18Z [wallet/sqlite.cpp:75] [SQLiteDatabase] Using wallet /BTCrt/rt3/regtest/wallets/wal3
+2023-07-31T20:07:18Z [noui.cpp:56] [noui_InitMessage] init message: Loading wallet…
+2023-07-31T20:07:18Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Wallet File Version = 10500
+2023-07-31T20:07:18Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2023-07-31T20:07:19Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Wallet completed loading in             615ms
+2023-07-31T20:07:19Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] setKeyPool.size() = 0
+2023-07-31T20:07:19Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] mapWallet.size() = 0
+2023-07-31T20:07:19Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] m_address_book.size() = 0
+2023-07-31T20:07:19Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Encrypting Wallet with an nDeriveIterations of 319010
+2023-07-31T20:07:20Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 67df8e52f1e39cb07d317c369f10a2fdf4352bbcef41fb45dd46b2cfec91fa9c, type = 0, internal = 0
+2023-07-31T20:07:20Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 8a71a205ba2d23b2f9e37cbfa909afe4e6ff4b1479814e874f9db99927572b9f, type = 1, internal = 0
+2023-07-31T20:07:21Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 0903a35b619591bd1c13f00b3600006bbd8e92f024a88ad115780c339f4bc1be, type = 2, internal = 0
+2023-07-31T20:07:21Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 21439c1fa45b03ca5a59e5f1ef32cf657ac698e668260da050e45c441d2e093d, type = 0, internal = 1
+2023-07-31T20:07:22Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = ec1f732548e428178a3714e8a0cebb060fb306eef7964c7d39ffa99a6cebd929, type = 1, internal = 1
+2023-07-31T20:07:22Z [wallet/wallet.h:826] [WalletLogPrintf] [wal3] Setting spkMan to active: id = 1cf1d58a97353e54cfe0aa71dcb741c091f3a990aea3e8ce69e5d345b1e2fbc3, type = 2, internal = 1
+2023-07-31T20:08:04Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:43766 peer=2
+2023-07-31T20:08:04Z [net.cpp:1202] [CreateNodeFromAcceptedSocket] connection from 127.0.0.1:43766 accepted
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=2, peeraddr=127.0.0.1:43766
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: getaddr (0 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=2
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
+2023-07-31T20:08:04Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:43768 peer=3
+2023-07-31T20:08:04Z [net.cpp:1202] [CreateNodeFromAcceptedSocket] connection from 127.0.0.1:43768 accepted
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=3, peeraddr=127.0.0.1:43768
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: getaddr (0 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
+2023-07-31T20:08:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=3
+2023-07-31T20:08:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
+2023-07-31T20:08:05Z [net.cpp:1888] [ThreadOpenConnections] Adding fixed seeds as 60 seconds have passed and addrman is empty
+2023-07-31T20:09:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T20:09:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T20:09:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T20:09:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T20:09:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T20:09:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T20:09:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T20:09:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T20:10:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
+2023-07-31T20:10:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
+2023-07-31T20:10:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
+2023-07-31T20:10:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
+2023-07-31T20:10:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
+2023-07-31T20:10:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
+2023-07-31T20:10:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
+2023-07-31T20:10:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
+2023-07-31T20:11:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T20:11:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T20:11:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T20:11:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T20:11:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T20:11:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T20:11:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T20:11:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T20:12:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
+2023-07-31T20:12:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
+2023-07-31T20:12:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
+2023-07-31T20:12:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
+2023-07-31T20:12:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
+2023-07-31T20:12:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
+2023-07-31T20:12:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
+2023-07-31T20:12:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
+2023-07-31T20:13:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T20:13:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T20:13:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T20:13:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T20:13:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T20:13:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T20:13:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T20:13:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T20:14:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
+2023-07-31T20:14:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
+2023-07-31T20:14:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
+2023-07-31T20:14:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
+2023-07-31T20:14:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
+2023-07-31T20:14:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
+2023-07-31T20:14:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
+2023-07-31T20:14:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
+2023-07-31T20:15:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T20:15:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T20:15:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T20:15:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T20:15:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T20:15:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T20:15:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T20:15:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T20:16:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
+2023-07-31T20:16:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
+2023-07-31T20:16:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
+2023-07-31T20:16:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
+2023-07-31T20:16:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
+2023-07-31T20:16:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
+2023-07-31T20:16:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
+2023-07-31T20:16:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
+2023-07-31T20:17:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T20:17:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T20:17:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T20:17:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T20:17:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T20:17:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T20:17:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T20:17:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T20:18:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
+2023-07-31T20:18:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
+2023-07-31T20:18:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
+2023-07-31T20:18:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
+2023-07-31T20:18:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
+2023-07-31T20:18:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
+2023-07-31T20:18:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
+2023-07-31T20:18:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
+2023-07-31T20:19:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T20:19:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T20:19:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T20:19:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T20:19:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T20:19:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T20:19:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T20:19:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T20:20:04Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=2
+2023-07-31T20:20:04Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=2
+2023-07-31T20:20:04Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=2
+2023-07-31T20:20:04Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=2
+2023-07-31T20:20:05Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=3
+2023-07-31T20:20:05Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=3
+2023-07-31T20:20:05Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=3
+2023-07-31T20:20:05Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=3
+2023-07-31T20:20:43Z [net.cpp:1597] [SocketHandler] socket closed for peer=1
+2023-07-31T20:20:43Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=1
+2023-07-31T20:20:43Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=1
+2023-07-31T20:20:43Z [net.cpp:1597] [SocketHandler] socket closed for peer=3
+2023-07-31T20:20:43Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=3
+2023-07-31T20:20:43Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=3
+2023-07-31T20:20:43Z [net_processing.cpp:2448] [ProcessMessage] received: getheaders (69 bytes) peer=2
+2023-07-31T20:20:43Z [net_processing.cpp:3101] [ProcessMessage] Ignoring getheaders from peer=2 because node is in initial block download
+2023-07-31T20:20:43Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:20:44Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:20:48Z [net.cpp:1597] [SocketHandler] socket closed for peer=0
+2023-07-31T20:20:48Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=0
+2023-07-31T20:20:48Z [net.cpp:1597] [SocketHandler] socket closed for peer=2
+2023-07-31T20:20:48Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=2
+2023-07-31T20:20:48Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=0
+2023-07-31T20:20:48Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=2
+2023-07-31T20:21:44Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:21:44Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:21:45Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:21:45Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:22:05Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  344ms
+2023-07-31T20:22:45Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:22:45Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:22:46Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:22:46Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:23:46Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:23:46Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:23:47Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:23:47Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:24:47Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:24:47Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:24:48Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:24:48Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:25:48Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:25:48Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:25:49Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:25:49Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:26:49Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:26:49Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:26:50Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:26:50Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:27:50Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:27:50Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:27:51Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:27:51Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T20:28:51Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18441 lastseen=0.0hrs
+2023-07-31T20:28:51Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18441 failed after wait: Connection refused (111)
+2023-07-31T20:28:52Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T20:28:52Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
