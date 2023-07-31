@@ -15,9 +15,9 @@ mkdir /BTCrt/rt3
 
 /BTCrt/startBTCrt.sh
 
-bitcoin-cli -conf=/BTCrt/rt1.conf -named createwallet wallet_name="wal1" passphrase="wal1" load_on_startup=true
-bitcoin-cli -conf=/BTCrt/rt2.conf -named createwallet wallet_name="wal2" passphrase="wal2" load_on_startup=true
-bitcoin-cli -conf=/BTCrt/rt3.conf -named createwallet wallet_name="wal3" passphrase="wal3" load_on_startup=true
+bitcoin-cli -conf=/BTCrt/rt1.conf -named createwallet wallet_name="wal1" passphrase="wal1" descriptors=true load_on_startup=true
+bitcoin-cli -conf=/BTCrt/rt2.conf -named createwallet wallet_name="wal2" passphrase="wal2" descriptors=true load_on_startup=true
+bitcoin-cli -conf=/BTCrt/rt3.conf -named createwallet wallet_name="wal3" passphrase="wal3" descriptors=true load_on_startup=true
 
 # /BTCrt/stopBTCrt.sh
 
