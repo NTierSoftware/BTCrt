@@ -26,5 +26,3 @@ echo ; echo
 # https://stackoverflow.com/questions/92802/what-is-the-linux-equivalent-to-dos-pause
 read -rsp $'Press enter to continue...\n'
 
-# another line to test/delete
-# delete thses two lines
