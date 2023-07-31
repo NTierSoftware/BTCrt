@@ -1,0 +1,287 @@
+
+
+
+
+
+2023-07-31T15:32:20Z [init/common.cpp:165] [LogPackageVersion] Bitcoin Core version v22.0.0 (release build)
+2023-07-31T15:32:20Z [qt/guiutil.cpp:884] [LogQtInfo] Qt 5.12.11 (static), plugin=xcb (static)
+2023-07-31T15:32:20Z [qt/guiutil.cpp:889] [LogQtInfo] Static plugins:
+2023-07-31T15:32:20Z [qt/guiutil.cpp:894] [LogQtInfo]  QXcbIntegrationPlugin, version 330752
+2023-07-31T15:32:20Z [qt/guiutil.cpp:898] [LogQtInfo] Style: fusion / QFusionStyle
+2023-07-31T15:32:20Z [qt/guiutil.cpp:899] [LogQtInfo] System: Ubuntu 22.10, x86_64-little_endian-lp64
+2023-07-31T15:32:20Z [qt/guiutil.cpp:901] [LogQtInfo] Screen: XWAYLAND0 1920x1080, pixel ratio=1.0
+2023-07-31T15:32:20Z [qt/guiutil.cpp:901] [LogQtInfo] Screen: XWAYLAND1 1920x1200, pixel ratio=1.0
+2023-07-31T15:32:20Z [init.cpp:890] [AppInitParameterInteraction] Validating signatures for all blocks.
+2023-07-31T15:32:20Z [init.cpp:901] [AppInitParameterInteraction] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-07-31T15:32:20Z [init/common.cpp:29] [SetGlobals] Using the 'shani(1way,2way)' SHA256 implementation
+2023-07-31T15:32:20Z [random.cpp:100] [ReportHardwareRand] Using RdSeed as additional entropy source
+2023-07-31T15:32:20Z [random.cpp:103] [ReportHardwareRand] Using RdRand as an additional entropy source
+2023-07-31T15:32:20Z [init/common.cpp:136] [StartLogging] Default data directory /home/jd/.bitcoin
+2023-07-31T15:32:20Z [init/common.cpp:137] [StartLogging] Using data directory /BTCrt/rt1/regtest
+2023-07-31T15:32:20Z [init/common.cpp:142] [StartLogging] Config file: /BTCrt/rt1.conf
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: chain="regtest"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: daemon="1"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: dbcache="4000"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="1"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="http"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debug="rpc"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="tor"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="selectcoins"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="mempoolrej"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="estimatefee"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="cmpctblock"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="rand"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="prune"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="qt"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debugexclude="leveldb"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: debuglogfile="rt1.dbug.log"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: listen="1"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: listenonion="0"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: logips="1"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: logsourcelocations="1"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: prune="0"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: rpcpassword=****
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: rpcuser=****
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: server="1"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] addnode="127.0.0.1:18442"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] addnode="127.0.0.1:18443"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] datadir="/BTCrt/rt1"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] fallbackfee=".00000001"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] port="18441"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Config file arg: [regtest] rpcport="8441"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Command-line arg: conf="/BTCrt/rt1.conf"
+2023-07-31T15:32:20Z [util/system.cpp:1041] [logArgsPrefix] Command-line arg: datadir="/BTCrt/rt1"
+2023-07-31T15:32:20Z [init.cpp:1077] [AppInitMain] Using at most 125 automatic connections (1024 file descriptors available)
+2023-07-31T15:32:20Z [script/sigcache.cpp:102] [InitSignatureCache] Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2023-07-31T15:32:20Z [validation.cpp:1388] [InitScriptExecutionCache] Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2023-07-31T15:32:20Z [init.cpp:1104] [AppInitMain] Script verification uses 15 additional threads
+2023-07-31T15:32:20Z [util/thread.cpp:17] [TraceThread] scheduler thread start
+2023-07-31T15:32:20Z [httpserver.cpp:180] [InitHTTPAllowList] Allowing HTTP connections from: 127.0.0.0/8 ::1/128 
+2023-07-31T15:32:20Z [httpserver.cpp:316] [HTTPBindAddresses] Binding RPC on address ::1 port 8441
+2023-07-31T15:32:20Z [httpserver.cpp:316] [HTTPBindAddresses] Binding RPC on address 127.0.0.1 port 8441
+2023-07-31T15:32:20Z [httpserver.cpp:391] [InitHTTPServer] Initialized HTTP server
+2023-07-31T15:32:20Z [httpserver.cpp:393] [InitHTTPServer] HTTP: creating work queue of depth 16
+2023-07-31T15:32:20Z [rpc/server.cpp:292] [StartRPC] Starting RPC
+2023-07-31T15:32:20Z [httprpc.cpp:294] [StartHTTPRPC] Starting HTTP RPC server
+2023-07-31T15:32:20Z [httprpc.cpp:251] [InitRPCAuthentication] Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2023-07-31T15:32:20Z [httpserver.cpp:635] [RegisterHTTPHandler] Registering HTTP handler for / (exactmatch 1)
+2023-07-31T15:32:20Z [httpserver.cpp:635] [RegisterHTTPHandler] Registering HTTP handler for /wallet/ (exactmatch 0)
+2023-07-31T15:32:20Z [httpserver.cpp:421] [StartHTTPServer] Starting HTTP server
+2023-07-31T15:32:20Z [httpserver.cpp:423] [StartHTTPServer] HTTP: starting 4 worker threads
+2023-07-31T15:32:20Z [httpserver.cpp:282] [ThreadHTTP] Entering http event loop
+2023-07-31T15:32:20Z [wallet/load.cpp:40] [VerifyWallets] Using wallet directory /BTCrt/rt1/regtest/wallets
+2023-07-31T15:32:20Z [noui.cpp:56] [noui_InitMessage] init message: Verifying wallet(s)…
+2023-07-31T15:32:20Z [noui.cpp:56] [noui_InitMessage] init message: Loading banlist…
+2023-07-31T15:32:20Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt1/regtest/banlist.dat
+2023-07-31T15:32:20Z [banman.cpp:27] [BanMan] Recreating the banlist database
+2023-07-31T15:32:20Z [banman.cpp:55] [DumpBanlist] Flushed 0 banned node addresses/subnets to disk  0ms
+2023-07-31T15:32:20Z [net.cpp:1795] [SetTryNewOutboundPeer] net: setting try another outbound peer=false
+2023-07-31T15:32:20Z [net.cpp:2442] [SetNetworkActive] SetNetworkActive: true
+2023-07-31T15:32:20Z [policy/fees.cpp:530] [CBlockPolicyEstimator] Failed to read fee estimates from /BTCrt/rt1/regtest/fee_estimates.dat. Continue anyway.
+2023-07-31T15:32:20Z [init.cpp:1290] [AppInitMain] Using /16 prefix for IP bucketing
+2023-07-31T15:32:20Z [init.cpp:1326] [AppInitMain] Cache configuration:
+2023-07-31T15:32:20Z [init.cpp:1327] [AppInitMain] * Using 2.0 MiB for block index database
+2023-07-31T15:32:20Z [init.cpp:1335] [AppInitMain] * Using 8.0 MiB for chain state database
+2023-07-31T15:32:20Z [init.cpp:1336] [AppInitMain] * Using 3990.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-07-31T15:32:20Z [noui.cpp:56] [noui_InitMessage] init message: Loading block index…
+2023-07-31T15:32:20Z [validation.cpp:4706] [InitializeChainstate] Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-07-31T15:32:20Z [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /BTCrt/rt1/regtest/blocks/index
+2023-07-31T15:32:21Z [dbwrapper.cpp:141] [CDBWrapper] Opened LevelDB successfully
+2023-07-31T15:32:21Z [dbwrapper.cpp:166] [CDBWrapper] Using obfuscation key for /BTCrt/rt1/regtest/blocks/index: 0000000000000000
+2023-07-31T15:32:21Z [validation.cpp:3778] [LoadBlockIndexDB] LoadBlockIndexDB: last block file = 0
+2023-07-31T15:32:21Z [validation.cpp:3782] [LoadBlockIndexDB] LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2023-07-31T15:32:21Z [validation.cpp:3793] [LoadBlockIndexDB] Checking all blk files are present...
+2023-07-31T15:32:21Z [validation.cpp:4129] [LoadBlockIndex] Initializing databases...
+2023-07-31T15:32:21Z [flatfile.cpp:69] [Allocate] Pre-allocating up to position 0x1000000 in blk00000.dat
+2023-07-31T15:32:22Z [dbwrapper.cpp:137] [CDBWrapper] Opening LevelDB in /BTCrt/rt1/regtest/chainstate
+2023-07-31T15:32:22Z [dbwrapper.cpp:141] [CDBWrapper] Opened LevelDB successfully
+2023-07-31T15:32:22Z [dbwrapper.cpp:163] [CDBWrapper] Wrote new obfuscate key for /BTCrt/rt1/regtest/chainstate: 9de6f6de5d3fbc01
+2023-07-31T15:32:22Z [dbwrapper.cpp:166] [CDBWrapper] Using obfuscation key for /BTCrt/rt1/regtest/chainstate: 9de6f6de5d3fbc01
+2023-07-31T15:32:22Z [init.cpp:1514] [AppInitMain]  block index            2046ms
+2023-07-31T15:32:22Z [util/thread.cpp:17] [TraceThread] loadblk thread start
+2023-07-31T15:32:22Z [validation.cpp:2378] [ConnectTip]   - Load block from disk: 0.46ms [0.00s]
+2023-07-31T15:32:22Z [validationinterface.cpp:249] [BlockChecked] BlockChecked: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 state=Valid
+2023-07-31T15:32:22Z [validation.cpp:2390] [ConnectTip]   - Connect total: 0.06ms [0.00s (0.06ms/blk)]
+2023-07-31T15:32:22Z [validation.cpp:2395] [ConnectTip]   - Flush: 0.02ms [0.00s (0.02ms/blk)]
+2023-07-31T15:32:22Z [validation.cpp:2401] [ConnectTip]   - Writing chainstate: 0.02ms [0.00s (0.02ms/blk)]
+2023-07-31T15:32:22Z [validation.cpp:2240] [UpdateTip] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2023-07-31T15:32:22Z [validation.cpp:2412] [ConnectTip]   - Connect postprocess: 0.04ms [0.00s (0.04ms/blk)]
+2023-07-31T15:32:22Z [validation.cpp:2413] [ConnectTip] - Connect block: 0.60ms [0.00s (0.60ms/blk)]
+2023-07-31T15:32:22Z [txmempool.cpp:633] [check] Checking mempool with 0 transactions and 0 inputs
+2023-07-31T15:32:22Z [validationinterface.cpp:226] [BlockConnected] Enqueuing BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
+2023-07-31T15:32:22Z [validationinterface.cpp:199] [UpdatedBlockTip] Enqueuing UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
+2023-07-31T15:32:22Z [validationinterface.cpp:226] [operator()] BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
+2023-07-31T15:32:22Z [validation.cpp:4509] [LoadMempool] Failed to open mempool file from disk. Continuing anyway.
+2023-07-31T15:32:22Z [util/thread.cpp:19] [TraceThread] loadblk thread exit
+2023-07-31T15:32:22Z [validationinterface.cpp:199] [operator()] UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
+2023-07-31T15:32:22Z [init.cpp:1662] [AppInitMain] block tree size = 1
+2023-07-31T15:32:22Z [init.cpp:1674] [AppInitMain] nBestHeight = 0
+2023-07-31T15:32:22Z [net.cpp:241] [AddLocal] AddLocal([2600:1010:a020:615e::1111]:18441,1)
+2023-07-31T15:32:22Z [net.cpp:2432] [Discover] Discover: IPv6 wlp0s20f3: 2600:1010:a020:615e::1111
+2023-07-31T15:32:22Z [net.cpp:2375] [BindListenPort] Bound to 127.0.0.1:18445
+2023-07-31T15:32:22Z [net.cpp:2375] [BindListenPort] Bound to [::]:18441
+2023-07-31T15:32:22Z [net.cpp:2375] [BindListenPort] Bound to 0.0.0.0:18441
+2023-07-31T15:32:22Z [noui.cpp:56] [noui_InitMessage] init message: Loading P2P addresses…
+2023-07-31T15:32:22Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt1/regtest/peers.dat
+2023-07-31T15:32:22Z [net.cpp:2544] [Start] Recreating peers.dat
+2023-07-31T15:32:22Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  87ms
+2023-07-31T15:32:22Z [addrdb.cpp:174] [DeserializeFileDB] Missing or invalid file /BTCrt/rt1/regtest/anchors.dat
+2023-07-31T15:32:22Z [net.cpp:2555] [Start] 0 block-relay-only anchors will be tried for connections.
+2023-07-31T15:32:22Z [noui.cpp:56] [noui_InitMessage] init message: Starting network threads…
+2023-07-31T15:32:22Z [util/thread.cpp:17] [TraceThread] net thread start
+2023-07-31T15:32:22Z [util/thread.cpp:17] [TraceThread] dnsseed thread start
+2023-07-31T15:32:22Z [noui.cpp:56] [noui_InitMessage] init message: Done loading
+2023-07-31T15:32:22Z [qt/bitcoin.cpp:154] [DebugMessageHandler] GUI: Platform customization: "other"
+2023-07-31T15:32:22Z [util/thread.cpp:17] [TraceThread] opencon thread start
+2023-07-31T15:32:22Z [util/thread.cpp:17] [TraceThread] addcon thread start
+2023-07-31T15:32:22Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18442 lastseen=0.0hrs
+2023-07-31T15:32:22Z [util/thread.cpp:17] [TraceThread] msghand thread start
+2023-07-31T15:32:22Z [net.cpp:1756] [ThreadDNSAddressSeed] 0 addresses found from DNS seeds
+2023-07-31T15:32:22Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18442 failed after wait: Connection refused (111)
+2023-07-31T15:32:22Z [util/thread.cpp:19] [TraceThread] dnsseed thread exit
+2023-07-31T15:32:22Z [net.cpp:402] [ConnectNode] trying connection 127.0.0.1:18443 lastseen=0.0hrs
+2023-07-31T15:32:22Z [netbase.cpp:534] [LogConnectFailure] connect() to 127.0.0.1:18443 failed after wait: Connection refused (111)
+2023-07-31T15:32:23Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:34176 peer=0
+2023-07-31T15:32:23Z [net.cpp:1202] [CreateNodeFromAcceptedSocket] connection from 127.0.0.1:34176 accepted
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=0, peeraddr=127.0.0.1:34176
+2023-07-31T15:32:23Z [timedata.cpp:54] [AddTimeData] added time data, samples 2, offset +0 (+0 minutes)
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:4493] [SendMessages] initial getheaders (0) to peer=0 (startheight:0)
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending getheaders (69 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: getaddr (0 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=0
+2023-07-31T15:32:23Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: getheaders (69 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:3101] [ProcessMessage] Ignoring getheaders from peer=0 because node is in initial block download
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=0
+2023-07-31T15:32:23Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=0
+2023-07-31T15:32:26Z [net.cpp:2998] [CNode] Added connection to 127.0.0.1:34190 peer=1
+2023-07-31T15:32:26Z [net.cpp:1202] [CreateNodeFromAcceptedSocket] connection from 127.0.0.1:34190 accepted
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: version (102 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending version (102 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:1069] [PushNodeVersion] send version message: version 70016, blocks=0, us=[::]:0, them=[::]:0, txrelay=1, peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending wtxidrelay (0 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending sendaddrv2 (0 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending verack (0 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2634] [ProcessMessage] receive version message: /Satoshi:22.0.0/: version 70016, blocks=0, us=[::]:0, txrelay=1, peer=1, peeraddr=127.0.0.1:34190
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: wtxidrelay (0 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: sendaddrv2 (0 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: verack (0 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending sendheaders (0 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending sendcmpct (9 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending ping (8 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending feefilter (8 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: getaddr (0 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: sendheaders (0 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: sendcmpct (9 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: ping (8 bytes) peer=1
+2023-07-31T15:32:26Z [net.cpp:3020] [PushMessage] sending pong (8 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: getheaders (69 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:3101] [ProcessMessage] Ignoring getheaders from peer=1 because node is in initial block download
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: feefilter (8 bytes) peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:3922] [ProcessMessage] received: feefilter of 0.09170997 BTC/kvB from peer=1
+2023-07-31T15:32:26Z [net_processing.cpp:2448] [ProcessMessage] received: pong (8 bytes) peer=1
+2023-07-31T15:32:28Z [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:52938
+2023-07-31T15:32:28Z [rpc/request.cpp:172] [parse] ThreadRPCServer method=createwallet user=rt1 peeraddr=127.0.0.1:52938
+2023-07-31T15:32:28Z [wallet/bdb.cpp:263] [Verify] Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2023-07-31T15:32:28Z [wallet/bdb.cpp:264] [Verify] Using wallet /BTCrt/rt1/regtest/wallets/wal1/wallet.dat
+2023-07-31T15:32:28Z [wallet/bdb.cpp:143] [Open] BerkeleyEnvironment::Open: LogDir=/BTCrt/rt1/regtest/wallets/wal1/database ErrorFile=/BTCrt/rt1/regtest/wallets/wal1/db.log
+2023-07-31T15:32:28Z [noui.cpp:56] [noui_InitMessage] init message: Loading wallet…
+2023-07-31T15:32:29Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] Wallet File Version = 10500
+2023-07-31T15:32:29Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2023-07-31T15:32:30Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] Wallet completed loading in            1743ms
+2023-07-31T15:32:30Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] setKeyPool.size() = 0
+2023-07-31T15:32:30Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] mapWallet.size() = 0
+2023-07-31T15:32:30Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] m_address_book.size() = 0
+2023-07-31T15:32:30Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] Encrypting Wallet with an nDeriveIterations of 340908
+2023-07-31T15:32:30Z [wallet/bdb.cpp:461] [Rewrite] BerkeleyBatch::Rewrite: Rewriting wallet.dat...
+2023-07-31T15:32:31Z [wallet/bdb.cpp:537] [Flush] BerkeleyEnvironment::Flush: [/BTCrt/rt1/regtest/wallets/wal1] Flush(true)
+2023-07-31T15:32:31Z [wallet/bdb.cpp:547] [Flush] BerkeleyEnvironment::Flush: Flushing wallet.dat (refcount = 0)...
+2023-07-31T15:32:31Z [wallet/bdb.cpp:551] [Flush] BerkeleyEnvironment::Flush: wallet.dat checkpoint
+2023-07-31T15:32:31Z [wallet/bdb.cpp:553] [Flush] BerkeleyEnvironment::Flush: wallet.dat detach
+2023-07-31T15:32:31Z [wallet/bdb.cpp:556] [Flush] BerkeleyEnvironment::Flush: wallet.dat closed
+2023-07-31T15:32:31Z [wallet/bdb.cpp:562] [Flush] BerkeleyEnvironment::Flush: Flush(true) took             105ms
+2023-07-31T15:32:31Z [wallet/bdb.cpp:143] [Open] BerkeleyEnvironment::Open: LogDir=/BTCrt/rt1/regtest/wallets/wal1/database ErrorFile=/BTCrt/rt1/regtest/wallets/wal1/db.log
+2023-07-31T15:32:33Z [wallet/scriptpubkeyman.h:244] [WalletLogPrintf] [wal1] keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2023-07-31T15:32:33Z [wallet/scriptpubkeyman.h:244] [WalletLogPrintf] [wal1] LegacyScriptPubKeyMan::NewKeyPool rewrote keypool
+2023-07-31T15:32:35Z [wallet/bdb.cpp:590] [PeriodicFlush] Flushing wallet.dat
+2023-07-31T15:32:35Z [wallet/bdb.cpp:598] [PeriodicFlush] Flushed wallet.dat 129ms
+2023-07-31T15:32:57Z [httpserver.cpp:237] [http_request_cb] Received a POST request for / from 127.0.0.1:40702
+2023-07-31T15:32:57Z [rpc/request.cpp:172] [parse] ThreadRPCServer method=stop user=rt1 peeraddr=127.0.0.1:40702
+2023-07-31T15:32:57Z [rpc/server.cpp:302] [operator()] Interrupting RPC
+2023-07-31T15:32:57Z [rpc/server.cpp:314] [operator()] Stopping RPC
+2023-07-31T15:32:57Z [init.cpp:348] [OnRPCStopped] RPC stopped.
+2023-07-31T15:32:57Z [httpserver.cpp:433] [InterruptHTTPServer] Interrupting HTTP server
+2023-07-31T15:32:57Z [httprpc.cpp:312] [InterruptHTTPRPC] Interrupting HTTP RPC server
+2023-07-31T15:32:57Z [init.cpp:181] [Shutdown] Shutdown: In progress...
+2023-07-31T15:32:57Z [httprpc.cpp:317] [StopHTTPRPC] Stopping HTTP RPC server
+2023-07-31T15:32:57Z [httpserver.cpp:648] [UnregisterHTTPHandler] Unregistering HTTP handler for / (exactmatch 1)
+2023-07-31T15:32:57Z [util/thread.cpp:19] [TraceThread] opencon thread exit
+2023-07-31T15:32:57Z [httpserver.cpp:648] [UnregisterHTTPHandler] Unregistering HTTP handler for /wallet/ (exactmatch 0)
+2023-07-31T15:32:57Z [util/thread.cpp:19] [TraceThread] addcon thread exit
+2023-07-31T15:32:57Z [httpserver.cpp:445] [StopHTTPServer] Stopping HTTP server
+2023-07-31T15:32:57Z [httpserver.cpp:447] [StopHTTPServer] Waiting for HTTP worker threads to exit
+2023-07-31T15:32:57Z [httpserver.cpp:460] [StopHTTPServer] Waiting for HTTP event thread to exit
+2023-07-31T15:32:57Z [httpserver.cpp:285] [ThreadHTTP] Exited http event loop
+2023-07-31T15:32:57Z [httpserver.cpp:472] [StopHTTPServer] Stopped HTTP server
+2023-07-31T15:32:57Z [wallet/bdb.cpp:537] [Flush] BerkeleyEnvironment::Flush: [/BTCrt/rt1/regtest/wallets/wal1] Flush(false)
+2023-07-31T15:32:57Z [wallet/bdb.cpp:562] [Flush] BerkeleyEnvironment::Flush: Flush(false) took               0ms
+2023-07-31T15:32:57Z [util/thread.cpp:19] [TraceThread] net thread exit
+2023-07-31T15:32:57Z [util/thread.cpp:19] [TraceThread] msghand thread exit
+2023-07-31T15:32:58Z [net.cpp:1767] [DumpAddresses] Flushed 0 addresses to peers.dat  562ms
+2023-07-31T15:32:58Z [logging/timer.h:48] [Log] DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2023-07-31T15:32:58Z [logging/timer.h:48] [Log] DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.12s)
+2023-07-31T15:32:58Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=0
+2023-07-31T15:32:58Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=0
+2023-07-31T15:32:58Z [net.cpp:505] [CloseSocketDisconnect] disconnecting peer=1
+2023-07-31T15:32:58Z [net_processing.cpp:1206] [FinalizeNode] Cleared nodestate for peer=1
+2023-07-31T15:32:58Z [util/thread.cpp:19] [TraceThread] scheduler thread exit
+2023-07-31T15:32:58Z [validation.cpp:4629] [DumpMempool] Writing 0 unbroadcast transactions to disk.
+2023-07-31T15:32:58Z [validation.cpp:4639] [DumpMempool] Dumped mempool: 8e-06s to copy, 0.060102s to dump
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk started
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk completed (114.88ms)
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk started
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk completed (28.34ms)
+2023-07-31T15:32:58Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) started
+2023-07-31T15:32:58Z [txdb.cpp:138] [BatchWrite] Writing final batch of 0.00 MiB
+2023-07-31T15:32:58Z [txdb.cpp:140] [BatchWrite] Committed 0 changed transaction outputs (out of 0) to coin database...
+2023-07-31T15:32:58Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) completed (0.09s)
+2023-07-31T15:32:58Z [validationinterface.cpp:244] [ChainStateFlushed] Enqueuing ChainStateFlushed: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
+2023-07-31T15:32:58Z [validationinterface.cpp:244] [operator()] ChainStateFlushed: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk started
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block and undo data to disk completed (46.11ms)
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk started
+2023-07-31T15:32:58Z [logging/timer.h:50] [Log] FlushStateToDisk: write block index to disk completed (38.34ms)
+2023-07-31T15:32:58Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) started
+2023-07-31T15:32:58Z [txdb.cpp:138] [BatchWrite] Writing final batch of 0.00 MiB
+2023-07-31T15:32:59Z [txdb.cpp:140] [BatchWrite] Committed 0 changed transaction outputs (out of 0) to coin database...
+2023-07-31T15:32:59Z [logging/timer.h:48] [Log] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) completed (0.04s)
+2023-07-31T15:32:59Z [validationinterface.cpp:244] [ChainStateFlushed] Enqueuing ChainStateFlushed: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206
+2023-07-31T15:32:59Z [wallet/bdb.cpp:537] [Flush] BerkeleyEnvironment::Flush: [/BTCrt/rt1/regtest/wallets/wal1] Flush(true)
+2023-07-31T15:32:59Z [wallet/bdb.cpp:547] [Flush] BerkeleyEnvironment::Flush: Flushing wallet.dat (refcount = 0)...
+2023-07-31T15:32:59Z [wallet/bdb.cpp:551] [Flush] BerkeleyEnvironment::Flush: wallet.dat checkpoint
+2023-07-31T15:32:59Z [wallet/bdb.cpp:553] [Flush] BerkeleyEnvironment::Flush: wallet.dat detach
+2023-07-31T15:32:59Z [wallet/bdb.cpp:556] [Flush] BerkeleyEnvironment::Flush: wallet.dat closed
+2023-07-31T15:32:59Z [wallet/bdb.cpp:562] [Flush] BerkeleyEnvironment::Flush: Flush(true) took             226ms
+2023-07-31T15:32:59Z [wallet/wallet.h:826] [WalletLogPrintf] [wal1] Releasing wallet
+2023-07-31T15:32:59Z [wallet/bdb.cpp:537] [Flush] BerkeleyEnvironment::Flush: [/BTCrt/rt1/regtest/wallets/wal1] Flush(false) database not started
+2023-07-31T15:32:59Z [init.cpp:299] [Shutdown] Shutdown: done
